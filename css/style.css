@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('/fonts/SFPRODISPLAYREGULAR.OTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wrapper{
+    padding-left: 30px;
+    font-family: 'SF Pro Display';
+}
+
+.arrow-down{
+width: 24px;
+height: 24px;
+display: none;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    margin-left: 30px;
+    width: 865px;
+    height: 67px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    list-style: none;
+}
+
+li:not(:first-child){
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 60px;
+    white-space: nowrap;
+}
+
+li:first-of-type{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+    align-items: center;
+    text-align: center;
+}
+
+li{
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+li:not(:first-of-type):hover{
+    background-color: #000000;
+    color:#FFFFFF;
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .arrow-down{
+        display: flex;
+}
+}
+
+.user-interface{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.push-number{
+    display: inline;
+    flex-direction: row;
+    white-space: nowrap;
+    color: rgba(0, 122, 255, 1);
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 67px;
+}
+
+.do-push{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.bell-img{
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 67px;
+}
+
+.avatar-img{
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 67px;
+}
+
+.user-offer{
+    background-image: url('./images/purse_isometric\ 1.svg');
+    text-align: center;
+}
+
+.wallet-instruction > p{
+    white-space: nowrap;
+    justify-content: center;
+    display: inline-flex;
+}
+
+.wallet-instruction{
+    white-space: nowrap;
+    justify-content: center;
+    display: inline-flex;
+}
+
+.wallet-instruction-colored {
+    display: inline-flex;
+    color: rgba(0, 109, 240, 1);
+}
+
+.wallet-info{
+    width: 770px;
+    height: 58px;
+    left: 50px;
+    top: 150px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.create-new-wallet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #006DF0;
+    border-radius: 61px;
+    color: white;
+    border: none;
+    width: 310px;
+    height: 67px;
+}
+
+.connect-wallet{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 50px;
+    gap: 10px;
+    width: 241px;
+    height: 67px;
+    background: #FFFFFF;
+    border: 2px solid #006DF0;
+    border-radius: 61px;
+}
+
+.main-background{
+    box-sizing: border-box;
+    position: absolute;
+    width: 1782.08px;
+    height: 1778.91px;
+    left: -748.29px;
+    top: 308.87px;
+    border: none;
+    transform: rotate(-73.9deg);
+}
+
+.wallet-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.wrapper-main{
+    background-image: url('/images/purse_isometric\ 1.svg');
+    background-repeat: no-repeat;
+    background-position-y: calc(100px);
+    background-position-x: calc(-240px);
+}
